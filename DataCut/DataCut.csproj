@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48D5EF2A-066C-43AB-82F4-2DCCCA3EE6DC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataCut</RootNamespace>
+    <AssemblyName>DataCut</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClasseGlobal.cs" />
+    <Compile Include="ConeccionSQL.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="pg_ajustes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_cortes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_error.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_lockscreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_inventario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_ProductosVendidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_registros.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_registro_personal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_registro_trabajos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pg_TrabajosRealizados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="pg_ajustes.xaml.cs">
+      <DependentUpon>pg_ajustes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_cortes.xaml.cs">
+      <DependentUpon>pg_cortes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_error.xaml.cs">
+      <DependentUpon>pg_error.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_lockscreen.xaml.cs">
+      <DependentUpon>pg_lockscreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_login.xaml.cs">
+      <DependentUpon>pg_login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_menu.xaml.cs">
+      <DependentUpon>pg_menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_inventario.xaml.cs">
+      <DependentUpon>pg_inventario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_ProductosVendidos.xaml.cs">
+      <DependentUpon>pg_ProductosVendidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_registros.xaml.cs">
+      <DependentUpon>pg_registros.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_registro_personal.xaml.cs">
+      <DependentUpon>pg_registro_personal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_registro_trabajos.xaml.cs">
+      <DependentUpon>pg_registro_trabajos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pg_TrabajosRealizados.xaml.cs">
+      <DependentUpon>pg_TrabajosRealizados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\City.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Registros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\cortes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\trabajos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\ajustes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Inventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\shampoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\instancias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\cancel.png" />
+    <Resource Include="imagenes\editemployee.png" />
+    <Resource Include="imagenes\editproducts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\newemployee.png" />
+    <Resource Include="imagenes\save.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

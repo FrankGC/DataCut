@@ -1,0 +1,94 @@
+﻿<Page x:Class="DataCut.pg_ajustes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DataCut"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="pg_ajustes" Background="{StaticResource gradient_background}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Viewbox>
+            <TextBlock Text="DataCut" Grid.Row="0" Grid.Column="0" Foreground="White" Margin="10"/>
+        </Viewbox>
+        <Button  Grid.Row="1" Grid.Column="1" Style="{StaticResource bt_style}">
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/instancias.png"></Image>
+                    <TextBlock Text="Instancias" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="1" Grid.Column="2" Style="{StaticResource bt_style}">
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/menu.png"></Image>
+                    <TextBlock Text="Menu" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="1" Grid.Column="3" Style="{StaticResource bt_style}">
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/trabajos.png" Margin="20"/>
+                    <TextBlock Text="Trabajos" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="1" Grid.Column="4" Style="{StaticResource bt_style}">
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/usuarios.png"></Image>
+                    <TextBlock Text="Personal" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="2" Grid.Column="1" Style="{StaticResource bt_style}" >
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/inventario.png"/>
+                    <TextBlock Text="Invetario" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="2" Grid.Column="2" Style="{StaticResource bt_style}">
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/shampoo.png"></Image>
+                    <TextBlock Text="Productos" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="2" Grid.Column="3" Style="{StaticResource bt_style}">
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/ajustes.png"></Image>
+                    <TextBlock Text="Ajustes" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+        <Button  Grid.Row="2" Grid.Column="4" Style="{StaticResource bt_style}" Click="Button_Click" >
+            <Viewbox>
+                <StackPanel>
+                    <Image Source="/imagenes/undo.png"></Image>
+                    <TextBlock Text="Regresar" Foreground="White" FontSize="100" Margin="10"/>
+                </StackPanel>
+            </Viewbox>
+        </Button>
+    </Grid>
+</Page>

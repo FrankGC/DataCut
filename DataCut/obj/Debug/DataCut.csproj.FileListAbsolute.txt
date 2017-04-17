@@ -1,0 +1,218 @@
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\bin\Debug\DataCut.exe.config
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\bin\Debug\DataCut.exe
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\bin\Debug\DataCut.pdb
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\App.g.cs
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\App.baml
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\MainWindow.baml
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\pg_menu.baml
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut.g.resources
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut.exe
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut.pdb
+C:\Users\galva\OneDrive\Documents\Visual Studio 2015\Projects\DataCut\DataCut\obj\Debug\DataCut.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Desktop\DataCut\DataCut\bin\Debug\DataCut.exe.config
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut.exe
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut.pdb
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_registros.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\App.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\App.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\MainWindow.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_menu.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\bin\Debug\DataCut.exe
+C:\Users\Francisco\Desktop\DataCut\DataCut\bin\Debug\DataCut.pdb
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_registros.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut.g.resources
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_login.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_login.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\DataCut.csprojResolveAssemblyReference.cache
+E:\Ingenieria en Software\DataCut\DataCut\bin\Debug\DataCut.exe.config
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.exe
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.pdb
+E:\Ingenieria en Software\DataCut\DataCut\bin\Debug\DataCut.exe
+E:\Ingenieria en Software\DataCut\DataCut\bin\Debug\DataCut.pdb
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.csprojResolveAssemblyReference.cache
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_login.g.cs
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_registros.g.cs
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\App.g.cs
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\App.baml
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\MainWindow.baml
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_login.baml
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_menu.baml
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_registros.baml
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.g.resources
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+E:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+D:\Ingenieria en Software\DataCut\DataCut\bin\Debug\DataCut.exe.config
+D:\Ingenieria en Software\DataCut\DataCut\bin\Debug\DataCut.exe
+D:\Ingenieria en Software\DataCut\DataCut\bin\Debug\DataCut.pdb
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.csprojResolveAssemblyReference.cache
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_login.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_registros.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\App.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\App.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\MainWindow.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_login.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_menu.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_registros.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.g.resources
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.exe
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\DataCut.pdb
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_ajustes.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_cortes.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_empleados.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_lockscreen.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_perfil.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_trabajos.g.cs
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_ajustes.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_cortes.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_empleados.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_lockscreen.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_perfil.baml
+D:\Ingenieria en Software\DataCut\DataCut\obj\Debug\pg_trabajos.baml
+C:\Users\galva\Desktop\DataCut\DataCut\bin\Debug\DataCut.exe.config
+C:\Users\galva\Desktop\DataCut\DataCut\bin\Debug\DataCut.exe
+C:\Users\galva\Desktop\DataCut\DataCut\bin\Debug\DataCut.pdb
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_ajustes.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_cortes.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_empleados.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_lockscreen.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_login.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_registros.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_trabajos.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\App.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\App.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\MainWindow.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_ajustes.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_cortes.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_empleados.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_lockscreen.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_login.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_menu.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_registros.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_trabajos.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut.g.resources
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut.exe
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut.pdb
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_inventario.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_inventario.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.g.cs
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.baml
+C:\Users\galva\Desktop\DataCut\DataCut\obj\Debug\DataCut.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\bin\Debug\DataCut.exe.config
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\bin\Debug\DataCut.exe
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\bin\Debug\DataCut.pdb
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_ajustes.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_cortes.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_empleados.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_lockscreen.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_login.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_inventario.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_registros.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_trabajos.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\App.g.cs
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\App.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\MainWindow.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_ajustes.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_cortes.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_empleados.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_lockscreen.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_login.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_menu.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_inventario.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_registros.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_trabajos.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.baml
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut.g.resources
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut.exe
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut.pdb
+C:\Users\Francisco\Documents\Tecnologico\Ing Software\DataCut\DataCut\obj\Debug\DataCut.csprojResolveAssemblyReference.cache
+C:\Users\galva\Documents\DataCut\DataCut\bin\Debug\DataCut.exe.config
+C:\Users\galva\Documents\DataCut\DataCut\bin\Debug\DataCut.exe
+C:\Users\galva\Documents\DataCut\DataCut\bin\Debug\DataCut.pdb
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\MainWindow.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_ajustes.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_cortes.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_error.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_lockscreen.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_login.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_menu.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_inventario.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_registros.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\App.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.cache
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut_MarkupCompile.lref
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\App.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\MainWindow.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_ajustes.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_cortes.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_error.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_lockscreen.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_login.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_menu.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_inventario.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_registros.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut.g.resources
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut.Properties.Resources.resources
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut.csproj.GenerateResource.Cache
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut.exe
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\DataCut.pdb
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_registro_personal.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_registro_personal.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_registro_trabajos.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_registro_trabajos.baml
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_ProductosVendidos.g.cs
+C:\Users\galva\Documents\DataCut\DataCut\obj\Debug\pg_ProductosVendidos.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_ajustes.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_cortes.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_error.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_lockscreen.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_inventario.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_ProductosVendidos.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_registro_personal.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_registro_trabajos.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.g.cs
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_ajustes.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_cortes.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_error.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_lockscreen.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_inventario.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_ProductosVendidos.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_registro_personal.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_registro_trabajos.baml
+C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\pg_TrabajosRealizados.baml
