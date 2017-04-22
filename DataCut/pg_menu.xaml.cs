@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DataCut
+namespace Datacut
 {
     /// <summary>
     /// Interaction logic for pg_menu.xaml
@@ -22,9 +22,8 @@ namespace DataCut
     {
         public pg_menu()
         {
-            InitializeComponent();         
+            InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow.CG.fm.Navigate(new pg_registros());
@@ -32,8 +31,8 @@ namespace DataCut
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            if(MessageBox.Show("Cerrar session?","DataCut",MessageBoxButton.YesNo)==MessageBoxResult.Yes)
-              MainWindow.CG.fm.Navigate(new pg_login());
+            if (MessageBox.Show("Cerrar session?", "DataCut", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                MainWindow.CG.fm.Navigate(new pg_login());
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -43,7 +42,7 @@ namespace DataCut
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-           // FM.Navigate(new pg_perfil(FM));
+            //FM.Navigate(new pg_perfil(FM));
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
@@ -54,6 +53,16 @@ namespace DataCut
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
             MainWindow.CG.fm.Navigate(new pg_registro_personal());
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            MainWindow.CG.fm.Navigate(new pg_registro_productos());
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            MainWindow.CG.fm.Navigate(new pg_cortes());
         }
     }
 }

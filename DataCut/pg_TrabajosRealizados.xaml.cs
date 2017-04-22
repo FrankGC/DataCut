@@ -23,21 +23,19 @@ namespace DataCut
     {
         public pg_TrabajosRealizados()
         {
-            InitializeComponent();
-            
+            InitializeComponent();           
             cbx_TR_empleado.DisplayMemberPath = "Nombre";
             cbx_TR_empleado.SelectedValuePath = "ID_Empleado";
             cbx_TR_empleado.ItemsSource = MainWindow.CG.CM.QueryOut("SELECT Nombre,ID_Empleado FROM Personal").DefaultView;
             cbx_TR_trabajo.DisplayMemberPath = "Descripcion";
             cbx_TR_trabajo.SelectedValuePath = "ID_Trabajo";
-            cbx_TR_trabajo.ItemsSource = MainWindow.CG.CM.QueryOut("SELECT Descripcion,ID_Trabajo FROM Trabajo").DefaultView;          
+            cbx_TR_trabajo.ItemsSource = MainWindow.CG.CM.QueryOut("SELECT Descripcion,ID_Trabajo FROM Trabajo").DefaultView;      
             refres_data();
         }
 
         private void refres_data()
         {
-            datagrid_TR_list.ItemsSource = MainWindow.CG.CM.QueryOut("SELECT ID_TR,Trabajos_Realizados.ID_Empleado,Trabajos_Realizados.ID_Trabajo,Trabajo.Descripcion AS Trabajo, CAST(Apellidos AS varchar)+' '+Nombre AS 'Empleado',Hora,Fecha  FROM Trabajo,Trabajos_Realizados,Personal WHERE Trabajos_Realizados.ID_Empleado = Personal.ID_Empleado AND Trabajos_Realizados.ID_Trabajo = Trabajo.ID_Trabajo").DefaultView;
- 
+            datagrid_TR_list.ItemsSource = MainWindow.CG.CM.QueryOut("SELECT ID_TR,Trabajos_Realizados.ID_Empleado,Trabajos_Realizados.ID_Trabajo,Trabajo.Descripcion AS Trabajo, CAST(Apellidos AS varchar)+' '+Nombre AS 'Empleado',Hora,Fecha  FROM Trabajo,Trabajos_Realizados,Personal WHERE Trabajos_Realizados.ID_Empleado = Personal.ID_Empleado AND Trabajos_Realizados.ID_Trabajo = Trabajo.ID_Trabajo").DefaultView;    
         }
 
         private void bt_TR_ok_Click(object sender, RoutedEventArgs e)

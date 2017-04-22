@@ -12,7 +12,7 @@
             <RowDefinition Height="8*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="datagrid_TR_list" Background="White" Opacity="0.9" IsReadOnly="true" BorderBrush="Transparent" ColumnWidth="*" FontSize="16">
+        <DataGrid x:Name="datagrid_TR_list" Background="White" Opacity="0.9" IsReadOnly="true" BorderBrush="Transparent" ColumnWidth="*" FontSize="16" >
             <DataGrid.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Eliminar" Click="MenuItem_Click"/>

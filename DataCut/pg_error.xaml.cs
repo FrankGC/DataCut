@@ -1,5 +1,8 @@
-﻿using System;
+﻿using DataCut;
+using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,12 +15,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Data.SqlClient;
-using System.Data.Sql;
-using System.Data;
-using Microsoft.Win32;
 
-namespace DataCut
+namespace Datacut
 {
     /// <summary>
     /// Interaction logic for pg_error.xaml
@@ -29,6 +28,27 @@ namespace DataCut
         {
             InitializeComponent();
             get_instans();
+        }
+
+        private void cbx_instancia_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            get_databases();
+        }
+
+        private void bt_guardar_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (cbx_instancia.SelectedIndex != -1 && cbx_basededatos.SelectedIndex != -1)
+                {
+                    string[] conectionString = { @"Server=" + cbx_instancia.SelectedItem.ToString() + "; Database=" + cbx_basededatos.SelectedItem.ToString() + ";  Trusted_Connection=True; Connection Timeout=10;" };
+                    if (MainWindow.CG.CM.Conectar(conectionString))
+                    {
+                        MainWindow.CG.fm.Navigate(new pg_login());
+                    }
+                }
+            }
+            catch { }
         }
 
         private void get_instans()
@@ -48,37 +68,16 @@ namespace DataCut
 
         private void get_databases()
         {
-            if(cbx_instancia.SelectedIndex!=-1)
+            if (cbx_instancia.SelectedIndex != -1)
             {
-                string [] conectionString = { @"Server=" + cbx_instancia.SelectedItem.ToString() + ";Trusted_Connection=True; Connection Timeout=10;" };
+                string[] conectionString = { @"Server=" + cbx_instancia.SelectedItem.ToString() + ";Trusted_Connection=True; Connection Timeout=10;" };
                 ConeccionSQL tempc = new ConeccionSQL();
                 tempc.Conectar(conectionString);
                 MainWindow.CG.CM = tempc;
                 DataTable tempDatatable = MainWindow.CG.CM.QueryOut("SELECT * FROM sys.databases");
                 foreach (DataRow item in tempDatatable.Rows)
                     cbx_basededatos.Items.Add(item[0]);
-            }                  
-        }
-
-        private void bt_guardar_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                if(cbx_instancia.SelectedIndex!=-1 && cbx_basededatos.SelectedIndex!=-1)
-                {
-                    string [] conectionString = { @"Server=" + cbx_instancia.SelectedItem.ToString() + "; Database=" + cbx_basededatos.SelectedItem.ToString() + ";  Trusted_Connection=True; Connection Timeout=10;" };
-                    if (MainWindow.CG.CM.Conectar(conectionString))
-                    {
-                        MainWindow.CG.fm.Navigate(new pg_login());
-                    }
-                }
             }
-            catch { }
-        }
-
-        private void cbx_instancia_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            get_databases();
         }
     }
 }

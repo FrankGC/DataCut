@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DataCut
+namespace Datacut
 {
     /// <summary>
     /// Interaction logic for pg_ajustes.xaml
@@ -23,11 +23,6 @@ namespace DataCut
         public pg_ajustes()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow.CG.fm.GoBack();
         }
     }
 }

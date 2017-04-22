@@ -1,20 +1,20 @@
-﻿DataCut
+﻿Datacut
 
 
 winexe
 C#
 .cs
-C:\Users\Francisco\Desktop\DataCut\DataCut\obj\Debug\
-DataCut
+C:\Git\DataCut\Datacut\obj\Debug\
+Datacut
 none
 false
 DEBUG;TRACE
-C:\Users\Francisco\Desktop\DataCut\DataCut\App.xaml
-13-797117709
+C:\Git\DataCut\Datacut\App.xaml
+10-2050876197
 
-23-1755508370
-14-957574414
-MainWindow.xaml;pg_ajustes.xaml;pg_cortes.xaml;pg_error.xaml;pg_lockscreen.xaml;pg_login.xaml;pg_menu.xaml;pg_inventario.xaml;pg_ProductosVendidos.xaml;pg_registros.xaml;pg_registro_personal.xaml;pg_registro_trabajos.xaml;pg_TrabajosRealizados.xaml;
+21-395850965
+15-585710727
+MainWindow.xaml;pg_ajustes.xaml;pg_cortes.xaml;pg_error.xaml;pg_login.xaml;pg_menu.xaml;pg_registro_personal.xaml;pg_registros.xaml;pg_registro_productos.xaml;pg_registro_trabajos.xaml;
 
 True
 

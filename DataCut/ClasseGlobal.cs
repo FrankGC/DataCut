@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
 using System.Data.SqlClient;
-namespace DataCut
+using DataCut;
+
+namespace Datacut
 {
     public class ClasseGlobal
     {
@@ -22,8 +24,6 @@ namespace DataCut
             get { return SQLCMD; }
             set { SQLCMD = value; }
         }
-
-
 
     }
 }

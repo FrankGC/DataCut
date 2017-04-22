@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DataCut.Properties
+namespace Datacut.Properties
 {
 
 

@@ -25,7 +25,7 @@ namespace DataCut
                 CM.Connection = SGBD;
                 return true;
             }
-            catch (Exception ex) {  return false; }
+            catch  {  return false; }
         }
         public bool Conectar()
         {

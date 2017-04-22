@@ -12,20 +12,20 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Timers;
+using MahApps.Metro.Controls;
+using DataCut;
 
-
-namespace DataCut
+namespace Datacut
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         public static ClasseGlobal CG = new ClasseGlobal();
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();   
             CG.fm = fm;
             ConeccionSQL SQL = new ConeccionSQL();
             if (SQL.Conectar())
@@ -35,16 +35,6 @@ namespace DataCut
             }
             else
                 fm.Navigate(new pg_error());
-        }
-       
-        private void Window_MouseMove(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void Window_KeyDown(object sender, KeyEventArgs e)
-        {
-            
         }
     }
 }

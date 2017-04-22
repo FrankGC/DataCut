@@ -1,18 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 
-namespace DataCut
+
+namespace Datacut
 {
     class Coneccion_SqlServer
     {
         SqlCommand CM = new SqlCommand();
         public string conectar()
-        {          
+        {
             try
             {
                 SqlConnection SGBD = new SqlConnection(@"Server=DESKTOP-PJ3N4LO\SQLEXPRESS; Database=Estetica;  Trusted_Connection=True");

@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48D5EF2A-066C-43AB-82F4-2DCCCA3EE6DC}</ProjectGuid>
+    <ProjectGuid>{03085DBE-0D57-455B-BD2E-D49DE9119F18}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataCut</RootNamespace>
-    <AssemblyName>DataCut</AssemblyName>
+    <RootNamespace>Datacut</RootNamespace>
+    <AssemblyName>Datacut</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -35,9 +34,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Accessibility" />
+    <Reference Include="MahApps.Metro, Version=1.5.0.23, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.5.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -66,6 +70,7 @@
     </Compile>
     <Compile Include="ClasseGlobal.cs" />
     <Compile Include="ConeccionSQL.cs" />
+    <Compile Include="Coneccion_SqlServer.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -82,10 +87,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="pg_lockscreen.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="pg_login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -94,11 +95,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="pg_inventario.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="pg_ProductosVendidos.xaml">
+    <Page Include="pg_registro_personal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,15 +103,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="pg_registro_personal.xaml">
+    <Page Include="pg_registro_productos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="pg_registro_trabajos.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="pg_TrabajosRealizados.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -129,32 +122,23 @@
     <Compile Include="pg_error.xaml.cs">
       <DependentUpon>pg_error.xaml</DependentUpon>
     </Compile>
-    <Compile Include="pg_lockscreen.xaml.cs">
-      <DependentUpon>pg_lockscreen.xaml</DependentUpon>
-    </Compile>
     <Compile Include="pg_login.xaml.cs">
       <DependentUpon>pg_login.xaml</DependentUpon>
     </Compile>
     <Compile Include="pg_menu.xaml.cs">
       <DependentUpon>pg_menu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="pg_inventario.xaml.cs">
-      <DependentUpon>pg_inventario.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="pg_ProductosVendidos.xaml.cs">
-      <DependentUpon>pg_ProductosVendidos.xaml</DependentUpon>
+    <Compile Include="pg_registro_personal.xaml.cs">
+      <DependentUpon>pg_registro_personal.xaml</DependentUpon>
     </Compile>
     <Compile Include="pg_registros.xaml.cs">
       <DependentUpon>pg_registros.xaml</DependentUpon>
     </Compile>
-    <Compile Include="pg_registro_personal.xaml.cs">
-      <DependentUpon>pg_registro_personal.xaml</DependentUpon>
+    <Compile Include="pg_registro_productos.xaml.cs">
+      <DependentUpon>pg_registro_productos.xaml</DependentUpon>
     </Compile>
     <Compile Include="pg_registro_trabajos.xaml.cs">
       <DependentUpon>pg_registro_trabajos.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="pg_TrabajosRealizados.xaml.cs">
-      <DependentUpon>pg_TrabajosRealizados.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -173,71 +157,69 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="font\blackjack.otf" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\City.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\Registros.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\salir.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\cortes.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\trabajos.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\usuarios.png" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="imagenes\ajustes.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\Inventario.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\shampoo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="imagenes\back.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\instancias.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\menu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="imagenes\undo.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="imagenes\background.png" />
     <Resource Include="imagenes\cancel.png" />
+    <Resource Include="imagenes\City.jpg" />
+    <Resource Include="imagenes\cortes.png" />
+    <Resource Include="imagenes\edit.png" />
     <Resource Include="imagenes\editemployee.png" />
     <Resource Include="imagenes\editproducts.png" />
+    <Resource Include="imagenes\instancias.png" />
+    <Resource Include="imagenes\Inventario.png" />
+    <Resource Include="imagenes\menu.png" />
+    <Resource Include="imagenes\newemployee.png" />
+    <Resource Include="imagenes\newuser.png" />
+    <Resource Include="imagenes\Registros.png" />
+    <Resource Include="imagenes\salir.png" />
+    <Resource Include="imagenes\save.png" />
+    <Resource Include="imagenes\shampoo.png" />
+    <Resource Include="imagenes\trabajos.png" />
+    <Resource Include="imagenes\trash.png" />
+    <Resource Include="imagenes\undo.png" />
+    <Resource Include="imagenes\usuarios.png" />
+    <Resource Include="sounds\click.wav" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="imagenes\newemployee.png" />
-    <Resource Include="imagenes\save.png" />
+    <Resource Include="imagenes\scissors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\add_product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\edit_product.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\add_job.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\edit_job.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\pay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\tt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\total.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

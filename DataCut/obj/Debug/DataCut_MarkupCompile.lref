@@ -1,16 +1,13 @@
 ﻿
-FC:\Users\Francisco\Desktop\DataCut\DataCut\App.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\MainWindow.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_ajustes.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_cortes.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_error.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_lockscreen.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_login.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_menu.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_inventario.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_ProductosVendidos.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_registros.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_registro_personal.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_registro_trabajos.xaml;;
-FC:\Users\Francisco\Desktop\DataCut\DataCut\pg_TrabajosRealizados.xaml;;
+FC:\Git\DataCut\Datacut\App.xaml;;
+FC:\Git\DataCut\Datacut\MainWindow.xaml;;
+FC:\Git\DataCut\Datacut\pg_ajustes.xaml;;
+FC:\Git\DataCut\Datacut\pg_cortes.xaml;;
+FC:\Git\DataCut\Datacut\pg_error.xaml;;
+FC:\Git\DataCut\Datacut\pg_login.xaml;;
+FC:\Git\DataCut\Datacut\pg_menu.xaml;;
+FC:\Git\DataCut\Datacut\pg_registro_personal.xaml;;
+FC:\Git\DataCut\Datacut\pg_registros.xaml;;
+FC:\Git\DataCut\Datacut\pg_registro_productos.xaml;;
+FC:\Git\DataCut\Datacut\pg_registro_trabajos.xaml;;
 
